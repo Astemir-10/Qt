@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>resourses/Stars/fith star.png</file>
+        <file>resourses/Stars/four star.png</file>
+        <file>resourses/Stars/one star.png</file>
+        <file>resourses/Stars/three.png</file>
+        <file>resourses/Stars/two star.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>resourses/OrderImages/steik.jpg</file>
+        <file>resourses/OrderImages/grudka.jpg</file>
+        <file>resourses/OrderImages/kartoshka.jpg</file>
+        <file>resourses/OrderImages/katleta.jpeg</file>
+        <file>resourses/OrderImages/krilya.jpg</file>
+        <file>resourses/OrderImages/shshlik.jpg</file>
+    </qresource>
+</RCC>
