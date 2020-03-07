@@ -5,7 +5,6 @@
 #include "collectionlayout.h"
 #include "orderinformation.h"
 #include "listorders.h"
-#include "dialog.h"
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -23,13 +22,20 @@ public:
 private slots:
     void click();
 
-    void on_widget_customContextMenuRequested(const QPoint &pos);
+    void on_myOrders_clicked();
 
-    void on_groupBox_clicked();
 
-    void on_pushButton_clicked();
+    void on_veganCategory_clicked();
 
-    void on_pushButton_3_clicked();
+    void on_meatCategory_clicked();
+
+    void on_salatsCategory_clicked();
+
+    void on_desertsCategory_clicked();
+
+    void on_napitkiCategory_clicked();
+
+    void on_barCategory_clicked();
 
 private:
     CollectionLayout *collectionLayout = new CollectionLayout();

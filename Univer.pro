@@ -17,7 +17,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     collectionlayout.cpp \
-    dialog.cpp \
     listorders.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -27,7 +26,6 @@ SOURCES += \
 
 HEADERS += \
     collectionlayout.h \
-    dialog.h \
     listorders.h \
     mainwindow.h \
     ordercell.h \
@@ -35,7 +33,6 @@ HEADERS += \
     ordermodel.h
 
 FORMS += \
-    dialog.ui \
     listorders.ui \
     mainwindow.ui \
     orderinformation.ui
